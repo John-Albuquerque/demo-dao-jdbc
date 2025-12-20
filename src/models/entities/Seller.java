@@ -10,7 +10,7 @@ import java.util.Objects;
         private String name;
         private String email;
         private LocalDate birthDate;
-        private Double basesalary;
+        private Double baseSalary;
 
         private Department department;
 
@@ -23,7 +23,7 @@ import java.util.Objects;
             this.name = name;
             this.email = email;
             this.birthDate = birthDate;
-            this.basesalary = baseSalary;
+            this.baseSalary = baseSalary;
             this.department = department;
         }
 
@@ -43,11 +43,11 @@ import java.util.Objects;
             this.name = name;
         }
 
-        public String getEamil() {
+        public String getEmail() {
             return email;
         }
 
-        public void setEamil(String eamil) {
+        public void setEmail(String eamil) {
             this.email = eamil;
         }
 
@@ -59,12 +59,12 @@ import java.util.Objects;
             birthDate = birthDate;
         }
 
-        public Double getBasesalary() {
-            return basesalary;
+        public Double getBaseSalary() {
+            return baseSalary;
         }
 
-        public void setBasesalary(Double basesalary) {
-            this.basesalary = basesalary;
+        public void setBaseSalary(Double basesalary) {
+            this.baseSalary = basesalary;
         }
         public Department getDepartment() {
             return department;
@@ -93,7 +93,7 @@ import java.util.Objects;
                     ", name='" + name + '\'' +
                     ", email='" + email + '\'' +
                     ", birthDate=" + birthDate +
-                    ", basesalary=" + basesalary +
+                    ", basesalary=" + baseSalary +
                     ", department=" + department +
                     '}';
         }
