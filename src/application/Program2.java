@@ -36,6 +36,11 @@ public class Program2 {
         departmentDao.update(dep);
         System.out.println("Update completed");
 
+        System.out.println("\n=== TEST 5: department insert ====");
+        Department newDeparment = new Department(null, "Mercado");
+        departmentDao.insert(newDeparment);
+        System.out.println("Inserted! New id = " + newDeparment.getId());
+
 
 
         sc.close();
